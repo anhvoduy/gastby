@@ -1,0 +1,36 @@
+{
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
+  "version": "1.0.1",
+  "author": "devinsg <duyanh2005@gmail.com>",
+  "engines": {
+    "node": "8.11.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "gatsby": "^1.9.277",
+    "gatsby-link": "^1.6.46",
+    "gatsby-plugin-react-helmet": "^2.0.11",
+    "react-helmet": "^5.2.0",
+    "react-redux": "^6.0.1",
+    "react-router": "^5.0.0",
+    "redux": "^4.0.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.13.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  }
+}
