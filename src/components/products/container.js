@@ -30,7 +30,15 @@ class Products extends Component {
                     (Array.isArray(products) && products.length) ?
                     <ul>
                         {
-                            products.map((u, i) => <li key={i}>{u.name}</li>)
+                            products.map((u, i) => 
+                            <li key={i}>
+                                <div>
+                                    {u.ProductName}
+                                </div>
+                                <div>
+                                    {u.ImageUrl}
+                                </div>
+                            </li>)
                         }
                     </ul>
                     : null
