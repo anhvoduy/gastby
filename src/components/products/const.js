@@ -1,0 +1,5 @@
+const GET_PRODUCT_LIST = 'GET_PRODUCT_LIST';
+
+export {
+    GET_PRODUCT_LIST
+};
