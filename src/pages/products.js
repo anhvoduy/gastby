@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
-import Users from '../components/users';
+import Products from '../components/products';
 
 export class Container extends Component {
   constructor(props) {
@@ -10,8 +10,8 @@ export class Container extends Component {
   render() {
       return (
         <div>
-          <p>Welcome to user page</p>
-          <Users />
+          <p>Welcome to product page</p>
+          <Products />
           <Link to="/">Go back to the home page</Link>
         </div>
       );

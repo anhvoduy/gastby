@@ -9,17 +9,17 @@ class Users extends Component {
         }
     }
 
-    async componentDidMount() {
-        try
-        {
-            let res = await api.get('/users/list');
-            let { users } = res.data;
-            this.setState({ users: users });
-        }
-        catch (err) {
-            throw err;
-        }
-    }
+    // async componentDidMount() {
+    //     try
+    //     {
+    //         let res = await api.get('/user/list');
+    //         let { users } = res.data;
+    //         this.setState({ users: users });
+    //     }
+    //     catch (err) {
+    //         throw err;
+    //     }
+    // }
 
     render() {
         let { users } = this.state;
