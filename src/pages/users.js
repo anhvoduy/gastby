@@ -7,10 +7,6 @@ export class Container extends Component {
       super(props);
   }
 
-  componentWillMount() {
-      document.title = 'Users';
-  }
-
   render() {
       return (
         <div>

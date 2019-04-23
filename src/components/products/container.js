@@ -9,17 +9,17 @@ class Products extends Component {
         }
     }
 
-    async componentDidMount() {
-        try
-        {
-            let res = await api.get('/product/list');
-            let { products } = res.data;
-            this.setState({ products: products });
-        }
-        catch (err) {
-            throw err;
-        }
-    }
+    // async componentDidMount() {
+    //     try
+    //     {
+    //         let res = await api.get('/product/list');
+    //         let { products } = res.data;
+    //         this.setState({ products: products });
+    //     }
+    //     catch (err) {
+    //         throw err;
+    //     }
+    // }
 
     render() {
         let { products } = this.state;
